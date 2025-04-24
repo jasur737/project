@@ -3,9 +3,13 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: Roboto;
+}
 
 header {
    background-color: #fbc4a4; 
+   background-image: image(background-img);
    
 }
 .container {
@@ -143,4 +147,36 @@ header {
     justify-content: space-between;
     margin-top: 70px;
     padding-bottom: 40px;
+}
+.list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.list-text {
+    width: 358px;
+}
+.second-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+.header-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.second-header-theme {
+    font-size: 46px;
+    font-weight: 900;
+    width: 298px;
+}
+
+.mini-theme {
+    font-weight: 700;
+}
+.second-header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
