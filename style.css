@@ -404,6 +404,7 @@ box-shadow: 7px 8px 2px -5px rgba(34, 60, 80, 0.31);
   display: flex;
   justify-content: space-between;
   margin-top: 120px;
+  position: relative;
 }
 .text-header {
   display: flex;
@@ -427,4 +428,8 @@ box-shadow: 7px 8px 2px -5px rgba(34, 60, 80, 0.31);
   margin-top: 15px;
   display: flex;
   gap: 14px;
+}
+.big-header {
+  background-color: #F4F5F6;
+  position:relative;
 }
