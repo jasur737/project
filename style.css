@@ -441,6 +441,7 @@ header {
 }
 .big-header {
   background-color: #f4f5f6;
+  padding-bottom: 190px;
 }
 .img-header {
   display: flex;
@@ -775,4 +776,34 @@ footer {
 }
 .texts {
   width: 390px;
+}
+.swiper {
+  width: 1000px;
+  height: 300px;
+}
+.position-2 {
+  position: relative;
+  padding-bottom: 70px;
+}
+.swiper-button-prev {
+ position: absolute;
+ top: 150px !important;
+}
+.swiper-button-next {
+  position: absolute;
+  top: 150px !important;
+}
+.swiper-button-prev::after {
+  display: none;
+}
+.swiper-button-next::after {
+  display: none;
+}
+.swiper-pagination {
+  
+  
+}
+.pagination {
+  border: #424551 solid 3px;
+  width: 30px;
 }
